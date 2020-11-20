@@ -1,5 +1,6 @@
 guru/sfg/beer/order/service/repositories/BeerOrderRepository.class
 guru/sfg/brewery/model/OrderStatusUpdate.class
+guru/sfg/brewery/model/events/ValidateOrderResult$ValidateOrderResultBuilder.class
 guru/sfg/beer/order/service/domain/BeerOrder.class
 guru/sfg/beer/order/service/repositories/CustomerRepository.class
 guru/sfg/beer/order/service/domain/BeerOrder$BeerOrderBuilder.class
@@ -14,6 +15,7 @@ guru/sfg/beer/order/service/config/TaskConfig.class
 guru/sfg/beer/order/service/web/mappers/BeerOrderLineMapperDecorator.class
 guru/sfg/beer/order/service/sm/actions/ValidateOrderAction.class
 guru/sfg/beer/order/service/domain/Customer$CustomerBuilder.class
+guru/sfg/beer/order/service/services/listeners/ValidationResultListener.class
 guru/sfg/beer/order/service/bootstrap/BeerOrderBootStrap.class
 guru/sfg/beer/order/service/domain/Customer.class
 guru/sfg/beer/order/service/web/mappers/DateMapper.class
@@ -44,4 +46,5 @@ guru/sfg/beer/order/service/domain/BaseEntity.class
 guru/sfg/brewery/model/CustomerDto.class
 guru/sfg/beer/order/service/web/mappers/BeerOrderMapperImpl.class
 guru/sfg/brewery/model/BeerOrderDto$BeerOrderDtoBuilder.class
+guru/sfg/brewery/model/events/ValidateOrderResult.class
 guru/sfg/brewery/model/BeerOrderDto.class
